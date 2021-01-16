@@ -1,8 +1,4 @@
-<?php
-
-$title = 'Stripe PHP Samples';
-
-?>
+<?php $title = 'Stripe PHP Samples'; ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
