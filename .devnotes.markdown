@@ -1,0 +1,10 @@
+# Development Notes
+
+## Stripe Docs Test Account Info
+
+- Account ID: `acct_1032D82eZvKYlo2C`
+- Secret Key: `sk_test_4eC39HqLyjWDarjtT1zdp7dc`
+- Publishable Key: `pk_test_TYooMQauvdEDq54NiTphI7jx`
+- Example Product: `prod_IiZloJRScKKIAG`
+- Prices
+	- $42.00 USD One-Time: `price_1I78ce2eZvKYlo2CgF0hJUyY`
