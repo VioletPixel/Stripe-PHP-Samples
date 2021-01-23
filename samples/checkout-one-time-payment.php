@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-// Find your own API keys at https://dashboard.stripe.com/test/apikeys
+// Find your API keys at https://dashboard.stripe.com/test/apikeys
 $config = [
 	'publishableKey' => 'pk_test_TYooMQauvdEDq54NiTphI7jx',
 	'secretKey' => 'sk_test_4eC39HqLyjWDarjtT1zdp7dc',
