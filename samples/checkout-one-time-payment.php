@@ -45,6 +45,7 @@ catch (Exception $e) {
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $title; ?></title>
+		<style><?php include '../style.css'; ?></style>
 		<script src="https://js.stripe.com/v3/"></script>
 	</head>
 	<body>
