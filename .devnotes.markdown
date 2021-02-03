@@ -6,5 +6,8 @@
 - Secret Key: `sk_test_4eC39HqLyjWDarjtT1zdp7dc`
 - Publishable Key: `pk_test_TYooMQauvdEDq54NiTphI7jx`
 - Example Product: `prod_IiZloJRScKKIAG`
-- Prices
 	- $42.00 USD One-Time: `price_1I78ce2eZvKYlo2CgF0hJUyY`
+- Example Subscription: `prod_Io7v779F8Gxauz`
+	- $5.00 USD Per Month: `price_1ICVga2eZvKYlo2CLaMQcPSh`
+	- $15.00 USD Per Month: `price_1ICVgs2eZvKYlo2C8H07Xw7u`
+	- $100.00 USD Per Year: `price_1ICpsf2eZvKYlo2CykCMyd66`
