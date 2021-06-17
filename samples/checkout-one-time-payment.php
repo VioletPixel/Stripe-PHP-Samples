@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-// Find your own API keys at https://dashboard.stripe.com/test/apikeys
+// Find your API keys at https://dashboard.stripe.com/test/apikeys
 $config = [
 	'publishableKey' => 'pk_test_TYooMQauvdEDq54NiTphI7jx',
 	'secretKey' => 'sk_test_4eC39HqLyjWDarjtT1zdp7dc',
@@ -45,30 +45,13 @@ catch (Exception $e) {
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $title; ?></title>
-		<script src="https://js.stripe.com/v3/"></script>
+		<style><?php include '../style.css'; ?></style>
 	</head>
 	<body>
 		<h1><?php echo $title; ?></h1>
 		
-		<p>Click on the button below to purchase a $42 example product using Stripe Checkout.</p>
+		<p>Click on the link below to purchase a $42 example product using Stripe Checkout.</p>
 		
-		<p><button onclick="checkout()">Checkout</button></p>
-		
-		<script>
-			
-			var stripe = Stripe('<?php echo $config['publishableKey']; ?>');
-			
-			function checkout() {
-				stripe.redirectToCheckout({
-					sessionId: '<?php echo $checkoutSession->id; ?>',
-				})
-				.then(function (result) {
-					if (result.error) {
-						alert(result.error.message);
-					}
-				});
-			}
-			
-		</script>
+		<p><a href="<?php echo $checkoutSession->url; ?>">Checkout</a></p>
 	</body>
 </html>
